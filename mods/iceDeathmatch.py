@@ -17,7 +17,7 @@ class IceDeathMatchGame(bs.TeamGameActivity):
 
     @classmethod
     def getDescription(cls, sessionType):
-        return 'Freeze enemies and dump them off the map'
+        return 'Freeze enemies and throw them'
 
     @classmethod
     def supportsSessionType(cls, sessionType):
