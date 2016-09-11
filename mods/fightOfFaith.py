@@ -5,7 +5,7 @@ def bsGetAPIVersion():
     # return the api-version this script expects.
     # this prevents it from attempting to run in newer versions of the game
     # where changes have been made to the modding APIs
-    return 3
+    return 4
 
 def bsGetGames():
     return [FightOfFaithGame]
@@ -33,7 +33,7 @@ class FightOfFaithGame(bs.TeamGameActivity):
 
     @classmethod
     def getDescription(cls,sessionType):
-        return 'How quickly you kill THEM?'
+        return 'How quickly you'll kill THEM?'
 
     @classmethod
     def getSupportedMaps(cls,sessionType):
